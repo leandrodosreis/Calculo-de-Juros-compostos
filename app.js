@@ -54,7 +54,7 @@ entradaDeDados.question('Digite o nome do cliente: ', function (nome) {
 
                             let montante = (Number(c) * Number(1 + i / 100) ** n)
 
-                            let acrescimo = (montante - c)
+                            let acrescimo = (montante - capitaInicial)
 
                             console.log(`****************** [Viva Moda] *******************\nMuito obrigado por realizar a sua  compra conosco Sr(a) ${nomeCliente}.\nA compra do produto ${nomeProduto}, tem um valor de: ${c}.\nA sua compra será parcelada em ${n} vezes e o Sr(a) pagará: ${montante.toFixed(2)}.\nO acréscimo realizado ao valor de: ${c} será de ${acrescimo.toFixed(2)}.\nMuito obrigado por escolher a [Viva Moda].\n*******************************************************`)
 
